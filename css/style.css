@@ -1,0 +1,59 @@
+/* Created by: Shyla Oommen
+* Created on: Apr 2023
+* This CSS file defines the style for index.html
+* ICS2O-Programming-Unit4-04-HTML-Museum
+*/
+
+body {
+  background-color: #eaefb1;
+}
+
+h5 {
+  background-color: #f1f5cc;
+  text-align: center;
+  border: 2px solid #f7d488;
+  color: black;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+p {
+  background-color: #f1f5cc;
+  border: 2px solid #f7d488;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 115%;
+}
+
+form {
+  border: 2px solid #f7d488;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: black;
+  font-size: 115%;
+}
+
+#response {
+  background-color: #f1f5cc;
+  border: 2px solid #f7d488;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 115%;
+}
+
+img {
+  float: right;
+}
