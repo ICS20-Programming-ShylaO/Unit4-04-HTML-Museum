@@ -31,7 +31,7 @@ function DiscountCheck () {
   }
     
   // response for when user age is between 12 and 21 or it is Tuesday or Thursday
-  else if (((userAge > 12) && (userAge < 21)) || ((day == "Tuesday") || (day == "Thursday"))) {
+  else if (((userAge => 12) && (userAge <= 21)) || ((day == "Tuesday") || (day == "Thursday"))) {
     displayAns = "You get a student discount! Thank you for using this tool!"
   }
     
