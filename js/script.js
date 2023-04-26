@@ -22,21 +22,26 @@ function DiscountCheck () {
 
   // response for when the age is less than 5 or greater than 95
   if ((userAge < 5) || (userAge > 95)) {
-    displayAns = "You get in for free!."
+    displayAns = "You get in for free! Thank you for using this tool!"
+  }
+  // response for when the user does not enter a day
+  else if (day == "") {
+    displayAns = "Please enter the day."
   }
   // response for when user age is between 12 and 21 or it is Tuesday or Thursday
   else if (((userAge > 12) && (userAge < 21)) || ((day == "Tuesday") || (day == "Thursday"))) {
-    displayAns = "You get a student discount!"
+    displayAns = "You get a student discount! Thank you for using this tool!"
   }
   // response for when user age does not qualify for any discounts and it is not Tuesday or Thursday
   else if ((userAge > 0) && ((day != "Tuesday") || (day != "Thursday"))) {
-    displayAns = "You must pay the regular price."
+    displayAns = "You must pay the regular price. Thank you for using this tool!"
   }
+
   // response for when user does not enter an age
   else {
     displayAns = "Please enter your age."
   }
 
   // display response to user
-  document.getElementById('response').innerHTML = displayAns + " Thank you for using this tool!"
+  document.getElementById('response').innerHTML = displayAns
 }
